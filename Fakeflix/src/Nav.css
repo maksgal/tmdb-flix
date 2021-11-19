@@ -1,0 +1,21 @@
+.nav {
+  padding: 10px 20px;
+  display: flex;
+  position: fixed;
+  justify-content: flex-end;
+  top: 0;
+  width: 100%;
+  max-width: inherit;
+  z-index: 1;
+  transition: all 0.3s ease-in;
+  background-color: rgba(17, 17, 17, 0.25);
+}
+
+.nav__black {
+  background-color: rgba(17, 17, 17, 0.85);
+}
+
+.nav__logo {
+  max-height: 30px;
+  object-fit: contain;
+}
